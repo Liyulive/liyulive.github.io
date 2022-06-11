@@ -102,7 +102,7 @@ collections:
     delete: false
     files:
       - name: tags-index.md
-        label: tags
+        label: 标签
         file: source\tags\index.md
         editor:
           preview: true
