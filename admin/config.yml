@@ -60,7 +60,7 @@ collections:
         default: true
         required: false
   - name: all_posts
-    fields:
+    fields: &ref_0
       - label: Title
         name: title
         widget: string
@@ -100,4 +100,10 @@ collections:
   - label: Page
     name: pages
     delete: false
-    files: []
+    files:
+      - name: tags-index.md
+        label: tags
+        file: source\tags\index.md
+        editor:
+          preview: true
+        fields: *ref_0

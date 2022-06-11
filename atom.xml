@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>立羽的博客</title>
+  
+  
+  <link href="http://liyu.cf/atom.xml" rel="self"/>
+  
+  <link href="http://liyu.cf/"/>
+  <updated>2022-06-11T11:22:50.568Z</updated>
+  <id>http://liyu.cf/</id>
+  
+  <author>
+    <name>立羽</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Hexo时遇到的一些问题</title>
+    <link href="http://liyu.cf/2022/06/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/"/>
+    <id>http://liyu.cf/2022/06/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</id>
+    <published>2022-06-11T11:06:16.000Z</published>
+    <updated>2022-06-11T11:22:50.568Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-使用主题后页面不显示"><a href="#1-使用主题后页面不显示" class="headerlink" title="1. 使用主题后页面不显示"></a>1. 使用主题后页面不显示</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% extends ‘_layout.swig‘ %&#125; &#123;% import ‘_macro/post.swig‘ as post_template %&#125;</span><br></pre></td></tr></table></figure><p>手动安装swig</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-renderer-swig</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-使用主题后页面不显示&quot;&gt;&lt;a href=&quot;#1-使用主题后页面不显示&quot; class=&quot;headerlink&quot; title=&quot;1. 使用主题后页面不显示&quot;&gt;&lt;/a&gt;1. 使用主题后页面不显示&lt;/h2&gt;&lt;figure class=&quot;highlight plaint</summary>
+      
+    
+    
+    
+    
+    <category term="问题" scheme="http://liyu.cf/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="Hexo" scheme="http://liyu.cf/tags/Hexo/"/>
+    
+    <category term="bug" scheme="http://liyu.cf/tags/bug/"/>
+    
+  </entry>
+  
+</feed>
